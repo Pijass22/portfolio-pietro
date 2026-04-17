@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family: "Montserrat", sans-serif;
+
+}
+body {background-color:rgb(5, 3, 23) ;
+/* height: 100vh; */
+color:rgb(203, 187, 187);
+box-sizing: border-box;
+}
+
+.vermelho-destaque {
+color:rgb(151, 14, 39);
+}
+
+span{
+color:rgb(255, 255, 255);
+}
+
+
+
+.titulo-header{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+.menu-header{
+display: flex;
+align-items: center;
+gap: 40px;
+padding: 0.5% 10% 0% 0%;
+font-size: 20px;
+font-weight: 380;
+color:darkorange;
+}
+
+
+.menu-header__link{
+  display: flex;  
+  text-decoration: none;
+  color: darkorange;
+}
+
+.imagem-perfil {   
+border-radius: 10%;
+scale: 80%;
+}
+
+.conteudo{
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 10% 0px 10%;
+}
+
+.texto-principal{
+width: 800px;
+font-size: 20px;
+}
+
+.texto-destaque{
+color:darkorange
+}
+
+.ancora-main{
+display:flex;
+text-align: center;
+justify-content:space-between;
+flex-direction: column;
+margin: 2%;
+margin-right: 50px; 
+padding: 25px;    
+}
+
+.style-ancoras {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+gap: 40px;  
+font-size: 15px;  
+}
+
+.ancora-github{
+display: flex;
+padding: 18px;
+border-radius: 16px;
+font-weight: 500;
+text-decoration: none;
+border: 2px solid rgb(151, 14, 39);
+width: 140px;
+align-items: center;
+gap: 10px;
+}
+
+.ancora-github:hover {
+background-color:#272727;    
+}
+
+.ancora-instagram {
+display: flex;
+padding: 18px;
+border-radius: 16px;
+font-weight: 500;
+text-decoration: none;
+border: 2px solid rgb(151, 14, 39);
+width: 140px;
+align-items: center;
+gap: 10px;
+}
+
+.ancora-instagram:hover {
+background-color: #272727;    
+}
+
+
+
+.titulo__lista{
+display: flex;
+margin: 2%;
+align-items:center;
+font-size:x-large;
+}
+
+.itens__lista{
+display:flex;
+margin: 1%;
+align-items:center;
+}
+
+.lista-destaque{
+color:darkorange
+}
+
+.footer {
+display: flex;
+justify-content: center; 
+background-color: #272727;
+padding: 10px;
+font-weight: 400;
+}
+
