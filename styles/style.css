@@ -1,25 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+ :root {
+
+  --cor-primaria: rgb(5, 3, 23);
+  --cor-secundaria: darkorange;
+  --cor-terciaria: rgb(151, 14, 39);
+  --cor-hover:#272727; 
+  --cor-fonte:rgb(203, 187, 187);
+
+  --fonte-principal: "Montserrat", sans-serif;
+
+ }
+
 *{
 margin: 0;
 padding: 0;
 font-family: "Montserrat", sans-serif;
 
 }
-body {background-color:rgb(5, 3, 23) ;
+body {
+background-color: var(--cor-primaria);
 /* height: 100vh; */
-color:rgb(203, 187, 187);
+color:var(--cor-fonte);
 box-sizing: border-box;
 }
 
 .vermelho-destaque {
-color:rgb(151, 14, 39);
+color:var(--cor-terciaria);
 }
-
-span{
-color:rgb(255, 255, 255);
-}
-
 
 
 .titulo-header{
@@ -35,7 +44,7 @@ gap: 40px;
 padding: 0.5% 10% 0% 0%;
 font-size: 20px;
 font-weight: 380;
-color:darkorange;
+color:var(--cor-secundaria);
 }
 
 
@@ -83,7 +92,8 @@ justify-content: space-between;
 align-items: center;
 flex-direction: column;
 gap: 40px;  
-font-size: 15px;  
+font-size: 15px;
+color: var(--cor-terciaria);  
 }
 
 .ancora-github{
@@ -92,14 +102,15 @@ padding: 18px;
 border-radius: 16px;
 font-weight: 500;
 text-decoration: none;
-border: 2px solid rgb(151, 14, 39);
+border: 2px solid var(--cor-terciaria);
 width: 140px;
 align-items: center;
 gap: 10px;
+color: var(--cor-secundaria);
 }
 
 .ancora-github:hover {
-background-color:#272727;    
+background-color:var(--cor-hover);    
 }
 
 .ancora-instagram {
@@ -108,14 +119,15 @@ padding: 18px;
 border-radius: 16px;
 font-weight: 500;
 text-decoration: none;
-border: 2px solid rgb(151, 14, 39);
+border: 2px solid var(--cor-terciaria);
 width: 140px;
 align-items: center;
 gap: 10px;
+color: var(--cor-secundaria);
 }
 
 .ancora-instagram:hover {
-background-color: #272727;    
+background-color: var(--cor-hover);   
 }
 
 
@@ -142,7 +154,7 @@ color:darkorange
 .footer {
 display: flex;
 justify-content: center; 
-background-color: #272727;
+background-color: var(--cor-hover);
 padding: 10px;
 font-weight: 400;
 align-items: center;
