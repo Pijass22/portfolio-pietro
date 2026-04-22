@@ -35,6 +35,7 @@ color:var(--cor-terciaria);
 display: flex;
 justify-content: space-between;
 padding: 10px;
+
 }
 
 .menu-header{
@@ -42,9 +43,10 @@ display: flex;
 align-items: center;
 gap: 40px;
 padding: 0.5% 10% 0% 0%;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 380;
 color:var(--cor-secundaria);
+
 }
 
 
@@ -57,6 +59,8 @@ color:var(--cor-secundaria);
 .imagem-perfil {   
 border-radius: 10%;
 scale: 80%;
+width: 50%;
+
 }
 
 .conteudo{
@@ -64,12 +68,23 @@ display:flex;
 align-items: center;
 justify-content: space-between;
 padding: 0px 10% 0px 10%;
+gap: 85px  ;
 }
 
+.container-principal{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
 
-.texto-principal{
-width: 800px;
-font-size: 20px;
+.container-texto-principal{
+width: 80%;
+padding-top: 40px;
+}
+
+.texto{
+  font-size: 1.60rem;
 }
 
 .texto-destaque{
@@ -83,7 +98,9 @@ justify-content:space-between;
 flex-direction: column;
 margin: 2%;
 margin-right: 50px; 
-padding: 25px;    
+padding: 25px; 
+width: 25%;  
+font-size: 1rem; 
 }
 
 .style-ancoras {
@@ -92,18 +109,18 @@ justify-content: space-between;
 align-items: center;
 flex-direction: column;
 gap: 40px;  
-font-size: 15px;
-color: var(--cor-terciaria);  
+color: var(--cor-terciaria); 
+width: 100%;
 }
 
 .ancora-github{
 display: flex;
 padding: 18px;
 border-radius: 16px;
-font-weight: 500;
+font-weight: 480;
 text-decoration: none;
 border: 2px solid var(--cor-terciaria);
-width: 140px;
+
 align-items: center;
 gap: 10px;
 color: var(--cor-secundaria);
@@ -117,10 +134,10 @@ background-color:var(--cor-hover);
 display: flex;
 padding: 18px;
 border-radius: 16px;
-font-weight: 500;
+font-weight: 480;
 text-decoration: none;
 border: 2px solid var(--cor-terciaria);
-width: 140px;
+
 align-items: center;
 gap: 10px;
 color: var(--cor-secundaria);
@@ -136,7 +153,7 @@ background-color: var(--cor-hover);
 display: flex;
 margin: 2%;
 align-items:center;
-font-size:x-large;
+font-size:1.25rem;
 }
 
 .itens__lista{
@@ -160,16 +177,16 @@ font-weight: 400;
 align-items: center;
 }
 
+
+/* Aqui se inicia o style da pagina about  */
+
 .texto-about{
 display: flex;
-font-size: 25px;
+font-size: 1.56rem;
 justify-content: space-between;
 flex-direction: column;
 gap: 50px;
 }
-
-/* Aqui se inicia o style da pagina about  */
-
 .conteudo-about{        
 display:flex;
 align-items: center;
@@ -181,5 +198,22 @@ padding: 0px 10% 0px 10%;
 .imagem-perfil-about{   
 border-radius: 10%;
 scale: 80%;
+width: 50%;
 }
 
+@media (max-width:1200px ){
+
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conteudo-about{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header{
+    padding: 6%;
+  }
+} 
