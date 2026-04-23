@@ -59,7 +59,7 @@ color:var(--cor-secundaria);
 .imagem-perfil {   
 border-radius: 10%;
 scale: 80%;
-width: 50%;
+width: 75%;
 
 }
 
@@ -67,8 +67,9 @@ width: 50%;
 display:flex;
 align-items: center;
 justify-content: space-between;
-padding: 0px 10% 0px 10%;
+padding: 5% 10%;
 gap: 85px  ;
+width: auto;
 }
 
 .container-principal{
@@ -99,7 +100,7 @@ flex-direction: column;
 margin: 2%;
 margin-right: 50px; 
 padding: 25px; 
-width: 25%;  
+width: 50%;  
 font-size: 1rem; 
 }
 
@@ -110,7 +111,7 @@ align-items: center;
 flex-direction: column;
 gap: 40px;  
 color: var(--cor-terciaria); 
-width: 100%;
+width: auto;
 }
 
 .ancora-github{
@@ -120,6 +121,7 @@ border-radius: 16px;
 font-weight: 480;
 text-decoration: none;
 border: 2px solid var(--cor-terciaria);
+
 
 align-items: center;
 gap: 10px;
@@ -198,7 +200,7 @@ padding: 0px 10% 0px 10%;
 .imagem-perfil-about{   
 border-radius: 10%;
 scale: 80%;
-width: 50%;
+width: 75%;
 }
 
 @media (max-width:1200px ){
